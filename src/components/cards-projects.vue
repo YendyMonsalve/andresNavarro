@@ -1,5 +1,5 @@
 <template lang="pug">
-.p-5.mx-5
+.p-lg-5.mx-5
   .content-cards.row.justify-content-center.align-items-end
     .col-xl-3(v-for="(item, index) in items" :key="index")
       .tarjeta-album.text-white.h-100
