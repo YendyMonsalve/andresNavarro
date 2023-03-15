@@ -7,7 +7,39 @@ import cards from "./components/cards-projects.vue";
 <template lang="pug">
 navbar
 banner
-cards.mb-5
+cards
+.row.justify-content-center.align-items-center.mb-5
+  .col-lg-4
+    img(src='@/assets/imgs/navarrolive.jpg', alt='' ).w-100
+  .col-lg-4: p.text-white Cillum in ad veniam reprehenderit nulla anim. Irure eu aute sunt non est et ipsum anim magna. Amet non elit cupidatat do ut dolore occaecat velit Lorem enim consequat tempor officia. Reprehenderit amet eu cupidatat tempor ad duis minim consectetur proident sint. Tempor excepteur nulla qui sint.
+h3.text-center.text-white.mb-4 Videos
+.row.justify-content-center.2b-3
+  .col-lg-3
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/_AARD7ZWTMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen).w-100
+  .col-lg-3
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/FVD4BznVyy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen).w-100
+  .col-lg-3
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/1EaR27Cs_Bk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen).w-100
+.row.justify-content-center.mb-5
+  .col-lg-3
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/McqVawkzLa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen).w-100
+  .col-lg-3
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/zJxuBHUzjc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen).w-100
+  .col-lg-3
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/KvoLOad7S6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen).w-100
+
 .footer(style="background-color: black; width: 100% ").p-4
   .row.justify-content-center
     .col-lg-3
