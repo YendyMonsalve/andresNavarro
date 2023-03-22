@@ -4,6 +4,7 @@
     .col-xl-3(v-for="(item, index) in items" :key="index")
       .tarjeta-album.text-white.h-100
         img(:src="item.imagen")
+        //- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3PxuQKMxyHkhCi741aQghV?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         .text-center
           h3.mb-1 {{ item.name }}
           h5.mb-1 {{ item.artist }}
@@ -17,66 +18,67 @@ export default {
     return {
       items: [
         {
+          imagen: "imagenes/elbeso.png",
+          name: "El beso",
+          artist: "Bienmeli (2023)",
+          rol: "Piano y producción",
+          year: "",
+        },
+        {
           imagen: "imagenes/img3.jpg",
           name: "Si te vas",
-          artist: "Josele",
-          rol: "Piano y produccion",
-          year: "",
-        },
-        {
-          imagen: "imagenes/img5.jpg",
-          name: "Somos y nos tenemos",
-          artist: "El Rila",
-          rol: "Piano y co-produccion",
-          year: "",
-        },
-        {
-          imagen: "imagenes/img4.png",
-          name: "Adictivo",
-          artist: "Bienmeli",
-          rol: "Piano y co-produccion",
-          year: "",
-        },
-        {
-          imagen: "imagenes/img6.jpg",
-          name: "So High",
-          artist: "Garca",
-          rol: "Piano y produccion",
+          artist: "Josele (2022)",
+          rol: "Piano y producción",
           year: "",
         },
         {
           imagen: "imagenes/img2.jpg",
           name: "Girl",
-          artist: "El Rila ft El Ruido",
-          rol: "Piano y produccion",
+          artist: "El Rila ft El Ruido (2022)",
+          rol: "Piano y producción",
           year: "",
+          link: "",
+        },
+        {
+          imagen: "imagenes/img5.jpg",
+          name: "Somos y nos tenemos",
+          artist: "El Rila (2022)",
+          rol: "Piano y co-producción",
+          year: "",
+        },
+        {
+          imagen: "imagenes/img4.png",
+          name: "Adictivo",
+          artist: "Bienmeli (2022)",
+          rol: "Piano y co-producción",
+          year: "",
+        },
+        {
+          imagen: "imagenes/img1.jpg",
+          name: "Entre montaña y cemento",
+          artist: "Ricardo Andres (2022)",
+          rol: "Piano",
+          year: "",
+        },
+        {
+          imagen: "imagenes/img6.jpg",
+          name: "So High",
+          artist: "Garca (2018)",
+          rol: "Piano y producción",
+          year: "",
+        },
+        {
+          imagen: "imagenes/kuisi.jpg",
+          name: "Tradicion Viva",
+          artist: "Kuisitambo (2016)",
+          rol: "Piano",
+          year: "Nominado Grammy Latino 2016 ",
         },
         {
           imagen: "imagenes/forero.jpg",
           name: "Raices de un corazón",
           artist: "Andres forero",
           rol: "Piano",
-          year: "",
-        },
-        {
-          imagen: "imagenes/kuisi.jpg",
-          name: "Tradicion Viva",
-          artist: "Kuisitambo",
-          rol: "Piano",
-          year: "Nominado Grammy Latino 2016 ",
-        },
-        {
-          imagen: "imagenes/img1.jpg",
-          name: "Entre montaña y cemento",
-          artist: "Ricardo Andres",
-          rol: "Piano",
-          year: "",
-        },
-        {
-          imagen: "imagenes/gradual.jpg",
-          name: "Gradualmente (Cortometraje)",
-          artist: "Camilo Perdomo",
-          rol: "BSO",
           year: "",
         },
       ],

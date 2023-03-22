@@ -8,6 +8,18 @@ import cards from "./components/cards-projects.vue";
 navbar
 banner
 cards
+.px-lg-5.mx-5
+  .row.justify-content-center.mb-5
+    .col-xl-3
+      .tarjeta-album.text-white.h-100
+        img(src='/imagenes/gradual.jpg', alt='')
+        .text-center
+          h3.mb-1 Gradualmente (Cortometraje)
+          h5.mb-1 Camilo Perdomo ()
+          p.mb-1 Producción musical
+    .col-xl-7
+      figure
+        <iframe width="860" height="615" src="https://www.youtube.com/embed/KvoLOad7S6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 .p-lg-5.mx-5
   .row.justify-content-center.align-items-center.mb-5
     .col-lg-4.mb-lg-0.mb-4
@@ -40,7 +52,12 @@ h3.text-center.text-white.mb-4 Videos
     .col-lg-3
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/KvoLOad7S6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen).w-100
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/9ET2RNzU964" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen).w-100
+  .row.justify-content-center.mb-5
+    .col-lg-3
+      figure
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/g3WBz_UqXT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen).w-100
 
 .footer(style="background-color: black; width: 100% ").p-4
   .row.justify-content-center
