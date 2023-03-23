@@ -1,7 +1,7 @@
 <script setup>
-import banner from "./components/principal-banner.vue";
-import navbar from "./components/barra-navegacion.vue";
-import cards from "./components/cards-projects.vue";
+import banner from './components/principal-banner.vue'
+import navbar from './components/barra-navegacion.vue'
+import cards from './components/cards-projects.vue'
 </script>
 
 <template lang="pug">
@@ -9,22 +9,35 @@ navbar
 banner
 cards
 .px-lg-5.mx-5
-  .row.justify-content-center.mb-5
+  .row.justify-content-center.mb-2
     .col-xl-3
       .tarjeta-album.text-white.h-100
         img(src='/imagenes/gradual.jpg', alt='')
         .text-center
           h3.mb-1 Gradualmente (Cortometraje)
-          h5.mb-1 Camilo Perdomo ()
+          h5.mb-1 Camilo Perdomo (2022)
           p.mb-1 Producción musical
     .col-xl-7
       figure
         <iframe width="860" height="615" src="https://www.youtube.com/embed/KvoLOad7S6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 .p-lg-5.mx-5
-  .row.justify-content-center.align-items-center.mb-5
+  .row.justify-content-center.align-items-center.mb-1
     .col-lg-4.mb-lg-0.mb-4
       img(src='@/assets/imgs/navarrolive.jpg', alt='' ).w-100
-    .col-lg-4: p.text-white Cillum in ad veniam reprehenderit nulla anim. Irure eu aute sunt non est et ipsum anim magna. Amet non elit cupidatat do ut dolore occaecat velit Lorem enim consequat tempor officia. Reprehenderit amet eu cupidatat tempor ad duis minim consectetur proident sint. Tempor excepteur nulla qui sint.
+    .col-lg-4
+      h2.text-white.mb-4 Interpretes
+      p.text-white Proyecto Musical con énfasis en Música Andina Colombiana. Este formato reúne diferentes Músicos con el fin de interpretar canciones compuestas por Andrés Navarro, acompañado por la producción de una serie de videos publicados en el canal de Youtube Interpretes Andrés Navarro.
+.p-lg-5.mx-5
+  .row.justify-content-center.align-items-center.mb-5
+    .col-lg-4
+      h2.text-white.mb-4 D'lima
+      p.text-white Banda colombiana inspirada en el maestro Carlos Acosta D´lima, contrabajista, compositor y docente de la Universidad Autónoma de Bucaramanga, UNAB. El ensamble desarrolla un sonido nuevo y basa sus composiciones en el latin jazz, el funk,la salsa, la música tradicional colombiana, entre otros. D´lima es un referente musical deBucaramanga. Participa en conferencias, conciertos y en festivales de importancia en laregión, como  el marco de las ferias de Ulibro y también, en la programación del teatroSantander acompañando a bandas nacionales e internacionales, como la BLAIR BIGBAND de Tennesse.
+        br
+        br
+        |El ensamble ofrece un amplio repertorio trabajado durante cuatro años y plasmado en suprimer trabajo discográfico (EP) con la calidad de músicos profesionales, docentes yestudiantes.
+    .col-lg-4.mb-lg-0.mb-4
+      img(src='@/assets/imgs/dlima1.jpg', alt='' ).w-100
+
 h3.text-center.text-white.mb-4 Videos
 .p-lg-5.mx-5
   .row.justify-content-center.mb-3
@@ -52,7 +65,7 @@ h3.text-center.text-white.mb-4 Videos
     .col-lg-3
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/9ET2RNzU964" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen).w-100
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/vzBgwq88n4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen).w-100
   .row.justify-content-center.mb-5
     .col-lg-3
       figure
