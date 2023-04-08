@@ -1,7 +1,7 @@
 <template lang="pug">
 .p-lg-5.mx-5
     .content-cards.row.justify-content-center.align-items-end
-        .col-xl-3(v-for="(item, index) in items" :key="index")
+        .col-xl-5(v-for="(item, index) in items" :key="index")
             .tarjeta-album.text-white.h-100
                 img(:src="item.imagen")
                 iframe(style="border-radius:12px" 
@@ -51,6 +51,16 @@ export default {
           link: '',
         },
         {
+          imagen: 'imagenes/d.jpeg',
+          name: 'Cantando nuestras músicas',
+          artist: 'Idanis Rueda',
+          rol: 'Piano y producción (2022)',
+          year: '',
+          iframeSrc:
+            'https://open.spotify.com/embed/track/5l2TgiVWff74KKHyi1V7TA?utm_source=generator',
+          link: '',
+        },
+        {
           imagen: 'imagenes/img5.jpg',
           name: 'Somos y nos tenemos',
           artist: 'El Rila ',
@@ -94,6 +104,15 @@ export default {
           year: ' ',
           iframeSrc:
             'https://open.spotify.com/embed/track/3AW3MTth8mZcmPH7c4NvRe?utm_source=generator',
+        },
+        {
+          imagen: 'imagenes/neyra.jpg',
+          name: 'Cerquita a ti',
+          artist: 'Neyra',
+          rol: 'Piano (2015)',
+          year: '',
+          iframeSrc:
+            'https://open.spotify.com/embed/track/54ncml9hCscya9x450D5tH?utm_source=generator',
         },
         {
           imagen: 'imagenes/forero.jpg',
