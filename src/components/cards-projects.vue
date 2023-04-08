@@ -106,15 +106,6 @@ export default {
             'https://open.spotify.com/embed/track/3AW3MTth8mZcmPH7c4NvRe?utm_source=generator',
         },
         {
-          imagen: 'imagenes/neyra.jpg',
-          name: 'Cerquita a ti',
-          artist: 'Neyra',
-          rol: 'Piano (2015)',
-          year: '',
-          iframeSrc:
-            'https://open.spotify.com/embed/track/54ncml9hCscya9x450D5tH?utm_source=generator',
-        },
-        {
           imagen: 'imagenes/forero.jpg',
           name: 'Raices de un corazón',
           artist: 'Andres forero',
@@ -122,6 +113,14 @@ export default {
           year: '',
           iframeSrc:
             'https://open.spotify.com/embed/track/54ncml9hCscya9x450D5tH?utm_source=generator',
+        },
+        {
+          imagen: 'imagenes/neyra.jpg',
+          name: 'Cerquita a ti',
+          artist: 'Neyra',
+          rol: 'Piano (2015)',
+          year: '',
+          iframeSrc: '',
         },
       ],
     }
