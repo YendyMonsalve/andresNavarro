@@ -7,7 +7,7 @@ import cards from './components/cards-projects.vue'
 <template lang="pug">
 navbar
 banner
-cards
+cards(id='section1')
 .px-lg-5.mx-5
   .row.justify-content-center.mb-2
     .col-xl-3
@@ -18,9 +18,9 @@ cards
           h5.mb-1 Camilo Perdomo (2022)
           p.mb-1 Producción musical
     .col-xl-7
-      figure
+      figure.d-lg-block.d-none
         <iframe width="860" height="615" src="https://www.youtube.com/embed/KvoLOad7S6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-.p-lg-5.mx-5
+.p-lg-5.mx-5(id='section2')
   .row.justify-content-center.align-items-center.mb-1
     .col-lg-4.mb-lg-0.mb-4
       img(src='@/assets/imgs/navarrolive.jpg', alt='' ).w-100
@@ -31,14 +31,14 @@ cards
   .row.justify-content-center.align-items-center.mb-5
     .col-lg-4
       h2.text-white.mb-4 D'lima
-      p.text-white Banda colombiana inspirada en el maestro Carlos Acosta D´lima, contrabajista, compositor y docente de la Universidad Autónoma de Bucaramanga, UNAB. El ensamble desarrolla un sonido nuevo y basa sus composiciones en el latin jazz, el funk,la salsa, la música tradicional colombiana, entre otros. D´lima es un referente musical deBucaramanga. Participa en conferencias, conciertos y en festivales de importancia en laregión, como  el marco de las ferias de Ulibro y también, en la programación del teatroSantander acompañando a bandas nacionales e internacionales, como la BLAIR BIGBAND de Tennesse.
+      p.text-white Banda colombiana inspirada en el maestro Carlos Acosta D´lima, contrabajista, compositor y docente de la Universidad Autónoma de Bucaramanga, UNAB. El ensamble desarrolla un sonido nuevo y basa sus composiciones en el latin jazz, el funk,la salsa, la música tradicional colombiana, entre otros. D´lima es un referente musical deBucaramanga. Participa en conferencias, conciertos y en festivales de importancia en laregión, como el marco de las ferias de Ulibro y también, en la programación del teatroSantander acompañando a bandas nacionales e internacionales, como la BLAIR BIGBAND de Tennesse.
         br
         br
         |El ensamble ofrece un amplio repertorio trabajado durante cuatro años y plasmado en suprimer trabajo discográfico (EP) con la calidad de músicos profesionales, docentes yestudiantes.
     .col-lg-4.mb-lg-0.mb-4
       img(src='@/assets/imgs/dlima1.jpg', alt='' ).w-100
 
-h3.text-center.text-white.mb-4 Videos
+h3.text-center.text-white.mb-4(id='section3') Videos
 .p-lg-5.mx-5
   .row.justify-content-center.mb-3
     .col-lg-3
