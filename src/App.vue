@@ -20,6 +20,38 @@ cards(id='section1')
     .col-xl-7
       figure.d-lg-block.d-none
         <iframe width="860" height="615" src="https://www.youtube.com/embed/KvoLOad7S6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+h3.text-center.text-white.mb-4(id='section1-2') Publicidad
+.p-lg-5.mx-5
+  .row.justify-content-center.align-items-center.mb-5
+    .col-lg-4
+      .video
+      video(width="560" height="315" src="@/assets/videos/Cambio Coffee_16x9_Light Blue_FINAL_alt.mp4" title="Cambio coffee" type="video/mp4" controls).w-100
+      br
+      br  
+      img(src='@/assets/imgs/reconocimiento-academia-latina-de-la-grabacion.jpg', alt='' ).w-100
+    .col-lg-4.mb-lg-0.mb-4
+      .video
+      video(width="560" height="315" src="@/assets/videos/Cambio Coffee_Logo_16x9.mp4" title="Cambio coffee" type="video/mp4" controls).w-100
+      br
+      br 
+      img(src='@/assets/imgs/reconocimiento-academia-latina-de-la-grabacion.jpg', alt='' ).w-100
+
+  .row.justify-content-center.align-items-center.mb-5
+    .col-lg-4
+      .video
+      video(width="560" height="315" src="@/assets/videos/Cambio169_v2.mp4" title="Cambio coffee" type="video/mp4" controls).w-100
+      br
+      br  
+      img(src='@/assets/imgs/reconocimiento-academia-latina-de-la-grabacion.jpg', alt='' ).w-100
+    .col-lg-4.mb-lg-0.mb-4
+      .video
+      video(width="560" height="315" src="@/assets/videos/Video de WhatsApp 2023-06-06 a las 09.21.13.mp4" title="Cambio coffee" type="video/mp4" controls).w-100
+      br
+      br 
+      img(src='@/assets/imgs/reconocimiento-academia-latina-de-la-grabacion.jpg', alt='' ).w-100
+
+
 .p-lg-5.mx-5(id='section2')
   .row.justify-content-center.align-items-center.mb-1
     .col-lg-4.mb-lg-0.mb-4
@@ -34,7 +66,7 @@ cards(id='section1')
       p.text-white Banda colombiana inspirada en el maestro Carlos Acosta D´lima, contrabajista, compositor y docente de la Universidad Autónoma de Bucaramanga, UNAB. El ensamble desarrolla un sonido nuevo y basa sus composiciones en el latin jazz, el funk,la salsa, la música tradicional colombiana, entre otros. D´lima es un referente musical deBucaramanga. Participa en conferencias, conciertos y en festivales de importancia en laregión, como el marco de las ferias de Ulibro y también, en la programación del teatroSantander acompañando a bandas nacionales e internacionales, como la BLAIR BIGBAND de Tennesse.
         br
         br
-        |El ensamble ofrece un amplio repertorio trabajado durante cuatro años y plasmado en suprimer trabajo discográfico (EP) con la calidad de músicos profesionales, docentes yestudiantes.
+        |El ensamble ofrece un amplio repertorio trabajado durante cuatro años y plasmado en su primer trabajo discográfico (EP) con la calidad de músicos profesionales, docentes y estudiantes.
     .col-lg-4.mb-lg-0.mb-4
       img(src='@/assets/imgs/dlima1.jpg', alt='' ).w-100
 
@@ -96,5 +128,21 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+}
+
+#section1 {
+  padding-top: 5rem !important;
+}
+
+#section2 {
+  padding-top: 5rem !important;
+}
+
+#section1-2 {
+  padding-top: 5rem;
+}
+
+#section3 {
+  padding-top: 5rem;
 }
 </style>

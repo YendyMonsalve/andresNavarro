@@ -3,6 +3,7 @@
   .nav-bar.p-3
     ul
       li(data-section="section1" @click="scrollToSection") Proyectos
+      li(data-section="section1-2" @click="scrollToSection") Publicidad
       li(data-section="section2" @click="scrollToSection") Acerca de
       li(data-section="section3" @click="scrollToSection") Videos
 </template>
@@ -30,7 +31,7 @@ export default {
   top: 0
   position: fixed
   z-index: 1
-  margin-bottom: 30px
+  //margin-bottom: 30px
   background-color: #1b1b1b
   width: 100%
   // box-shadow: 10px 1px 100px #8f8f8f
@@ -52,8 +53,6 @@ export default {
 
       &:last-child
         margin-right: 0
-
-
 
       &:hover,
       &:focus
